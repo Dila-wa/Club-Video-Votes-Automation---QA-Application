@@ -1,0 +1,17 @@
+{
+  "name": "club-video-votes-qa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "QA dashboard that drives the Leo Video Contest Jotform with a bulk email list and tracks approved/failed submissions.",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "postinstall": "playwright install chromium"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "playwright": "^1.47.0",
+    "socket.io": "^4.7.5"
+  }
+}
