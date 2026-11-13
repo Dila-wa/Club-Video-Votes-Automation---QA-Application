@@ -11,7 +11,7 @@ module.exports = {
   LOG_FILE: path.join(DATA_DIR, 'activity.log'),
   DEFAULT_SETTINGS: {
     videoLabel: 'Video 1',
-    headless: false,
+    headless: true,
     delayMs: 2500,
   },
 };
